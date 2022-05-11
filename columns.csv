@@ -21,7 +21,7 @@ loan_date_end, Date of end of his loan
 value, Player value in euro
 wage, Player monthly wage
 release_clause, Player release clause in euro
-contract - Date (and some more) range of player contract
+contract, Date (and some more) range of player contract
 attacking, Player attacking statistics
 crossing, Player crossing statistics
 finishing, Player finishing statistics
@@ -37,71 +37,71 @@ ball_control, Player ball control statistics
 movement, Player movement statistics
 acceleration, Player acceleration statistics
 sprint_speed, Player sprint_speed statistics
-agility
-reactions
-balance
-power
-shot_power
-jumping
-stamina
-strength
-long_shots
-mentality
-aggression
-interceptions
-positioning
-vision
-penalties
-composure
-defending
-marking
-standing_tackle
-sliding_tackle
-goalkeeping
-gk_diving
-gk_handling
-gk_kicking
-gk_positioning
-gk_reflexes
-total_stats
-base_stats
-w/f
-sm
-a/w
-d/w
-ir
-pac
-sho
-pas
-dri
-def
-phy
-hits
-ls
-st
-rs
-lw
-lf
-cf
-rf
-rw
-lam
-cam
-ram
-lm
-lcm
-cm
-rcm
-rm
-lwb
-ldm
-cdm
-rdm
-rwb
-lb
-lcb
-cb
-rcb
-rb
-gk
-gender
+agility, Player agility statistics
+reactions, Player reactions statistics
+balance, Player balance statistics
+power, Player power statistics
+shot_power, Player shot_power statistics
+jumping, Player jumping statistics
+stamina, Player stamina statistics
+strength, Player strength statistics
+long_shots, Player long_shots statistics
+mentality, Player mentality statistics
+aggression, Player aggression statistics
+interceptions, Player interceptions statistics
+positioning, Player positioning statistics
+vision, Player vision statistics
+penalties, Player penalties statistics
+composure, Player composure statistics
+defending, Player defending statistics
+marking, Player marking statistics
+standing_tackle, Player standing_tackle statistics
+sliding_tackle, Player sliding_tackle statistics
+goalkeeping, Player goalkeeping statistics
+gk_diving, Player goalkeeping diving statistics
+gk_handling, Player goalkeeping handling statistics
+gk_kicking, Player goalkeeping kicking statistics
+gk_positioning, Player goalkeeping positioning statistics
+gk_reflexes, Player goalkeeping reflexes statistics
+total_stats, Player sum of total stats
+base_stats, Player base statistics sum
+w/f, Player week foot stats (up to 5)
+sm, Player skill moves stats (up to 5)
+a/w, Away wins
+d/w, draft (home?) wins
+ir, Unknown
+pac, Player pace statistics
+sho, Player shootingg statistics
+pas, Player passing statistics
+dri, Player dribbling statistics
+def, Player defending statistics
+phy, Player physical stat
+hits, Unknown
+ls, Player left striker stat
+st, Player striker stat
+rs, Player right striker
+lw, Player lef wingback stat
+lf, Unknown
+cf, Player central forward stat
+rf, Player right forward stat
+rw, Player right wing stat
+lam, Player Left (off-centre) Attacking Midfielder
+cam, Player Central (off-centre) Attacking 
+ram, Player Right (off-centre) Attacking Midfielder
+lm, Player left Midfielder stat
+lcm, Player left central Midfielder stat
+cm, Player central Midfielder
+rcm, Player Right central Midfielder stat
+rm, Player right Midfielder stat
+lwb, Player Left Wing Back stat
+ldm, Player defensive Midfielder
+cdm, Player central defensive Midfielder
+rdm, Player right defensive Midfielder
+rwb, Player right wing back
+lb, Player left back
+lcb, Player left central back
+cb, Player central back
+rcb, Player right central back
+rb, Player right back
+gk, Player goalkeeping stats
+gender, Player Gender
