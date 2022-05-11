@@ -1,0 +1,107 @@
+column, description
+name, Name of the player
+age, Age of the player
+ova, Overall rating of player
+nationality, Player's nationality
+club, Player's actual club
+bov, Best Overall
+bp, Base Position of player in team
+position, Detailed position
+player_photo, Player's photo
+club_logo, Club's logo
+flag_photo, Flag photo
+pot, Player potential - player predicted or peak overall rating
+team_and_contract, Team and contract type of player
+height, Player height
+weight, Player weight
+foot, Player preferred foot
+growth, Player growth - player probability to maximize his potential
+joined, Date in which player joined his actual club
+loan_date_end, Date of end of his loan
+value, Player value in euro
+wage, Player monthly wage
+release_clause, Player release clause in euro
+contract - Date (and some more) range of player contract
+attacking, Player attacking statistics
+crossing, Player crossing statistics
+finishing, Player finishing statistics
+heading_accuracy, Player heading_accuracy 
+short_passing, Player short_passing statistics
+volleys, Player volleys statistics
+skill, Player Skill statistics
+dribbling, Player dribbling statistics
+curve, Player Curve statistics
+fk_accuracy, Player free kick accuracy 
+long_passing, Player long passing statistics
+ball_control, Player ball control statistics
+movement, Player movement statistics
+acceleration, Player acceleration statistics
+sprint_speed, Player sprint_speed statistics
+agility
+reactions
+balance
+power
+shot_power
+jumping
+stamina
+strength
+long_shots
+mentality
+aggression
+interceptions
+positioning
+vision
+penalties
+composure
+defending
+marking
+standing_tackle
+sliding_tackle
+goalkeeping
+gk_diving
+gk_handling
+gk_kicking
+gk_positioning
+gk_reflexes
+total_stats
+base_stats
+w/f
+sm
+a/w
+d/w
+ir
+pac
+sho
+pas
+dri
+def
+phy
+hits
+ls
+st
+rs
+lw
+lf
+cf
+rf
+rw
+lam
+cam
+ram
+lm
+lcm
+cm
+rcm
+rm
+lwb
+ldm
+cdm
+rdm
+rwb
+lb
+lcb
+cb
+rcb
+rb
+gk
+gender
