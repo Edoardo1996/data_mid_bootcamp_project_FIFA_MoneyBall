@@ -1,0 +1,1727 @@
+Name of the player
+J. Rodríguez       10
+A. Traoré           8
+J. Rojas            8
+R. Williams         7
+Paulinho            7
+                   ..
+L. Gasparotto       1
+L. Villalba         1
+Gumbau              1
+J. Gbamin           1
+Pablo Rodríguez     1
+Name: name, Length: 15737, dtype: int64
+
+
+Age of the player
+22    1318
+23    1304
+21    1265
+20    1250
+24    1223
+25    1106
+26    1081
+28    1026
+27    1019
+19    1007
+29     855
+30     746
+18     659
+31     626
+32     521
+33     425
+34     334
+17     288
+35     212
+36     133
+37      74
+38      57
+16      45
+39      29
+40      19
+41       6
+42       6
+43       2
+47       1
+53       1
+Name: age, dtype: int64
+
+
+Overall rating of player
+67    987
+65    982
+64    979
+66    952
+68    904
+70    894
+69    892
+63    842
+72    790
+71    767
+62    744
+61    625
+73    616
+75    602
+60    571
+74    525
+59    467
+58    396
+76    358
+77    319
+57    314
+56    249
+78    248
+55    224
+79    199
+80    152
+54    149
+53    144
+52    115
+81    106
+51     90
+83     78
+82     70
+50     67
+84     43
+49     40
+85     39
+48     23
+87     20
+86     17
+88     11
+47      9
+90      6
+89      6
+91      4
+93      1
+45      1
+92      1
+Name: ova, dtype: int64
+
+
+Player's nationality
+England     1660
+Germany     1129
+Spain       1098
+France       963
+Brazil       819
+            ... 
+Guam           1
+Eritrea        1
+Malawi         1
+Tanzania       1
+Barbados       1
+Name: nationality, Length: 166, dtype: int64
+
+
+Player's actual club
+Chelsea                    43
+AS Monaco                  43
+Arsenal                    43
+Wolverhampton Wanderers    43
+Manchester United          42
+                           ..
+Como                        1
+Krylya Sovetov Samara       1
+UCAM Murcia CF              1
+Dundee FC                   1
+San Martín de San Juan      1
+Name: club, Length: 898, dtype: int64
+
+
+Best Overall
+67    1034
+65    1000
+66     998
+68     986
+69     967
+70     942
+64     908
+71     879
+72     846
+63     736
+73     720
+62     642
+74     623
+61     592
+75     591
+60     469
+76     442
+77     404
+59     367
+78     305
+58     280
+57     249
+79     193
+80     188
+56     183
+55     167
+81     144
+54     117
+82     105
+53     104
+52      88
+83      76
+84      50
+51      49
+85      46
+50      31
+86      29
+87      25
+49      19
+88      11
+48       9
+89       8
+91       5
+90       5
+47       2
+93       1
+92       1
+44       1
+46       1
+Name: bov, dtype: int64
+
+
+Base Position of player in team
+CB     3141
+ST     2579
+CAM    2195
+GK     1509
+RM     1386
+CDM    1212
+CM      952
+LB      908
+RB      878
+LM      793
+RW      318
+LWB     247
+RWB     247
+LW      202
+CF       71
+Name: bp, dtype: int64
+
+
+Detailed position
+CB              2039
+ST              1805
+GK              1508
+CDM CM           745
+LB               653
+                ... 
+LB CM LW           1
+ST LM RW           1
+LW CAM RW LM       1
+LW CF ST           1
+LB LM CDM          1
+Name: position, Length: 618, dtype: int64
+
+
+Player's photo
+https://cdn.sofifa.com/players/000/002/16_120.png    1
+https://cdn.sofifa.com/players/240/091/20_120.png    1
+https://cdn.sofifa.com/players/239/997/20_120.png    1
+https://cdn.sofifa.com/players/239/998/20_120.png    1
+https://cdn.sofifa.com/players/240/000/20_120.png    1
+                                                    ..
+https://cdn.sofifa.com/players/214/136/20_120.png    1
+https://cdn.sofifa.com/players/214/153/20_120.png    1
+https://cdn.sofifa.com/players/214/157/20_120.png    1
+https://cdn.sofifa.com/players/214/163/20_120.png    1
+https://cdn.sofifa.com/players/259/105/20_120.png    1
+Name: player_photo, Length: 16638, dtype: int64
+
+
+Club's logo
+https://cdn.sofifa.com/teams/5/light_60.png       43
+https://cdn.sofifa.com/teams/69/light_60.png      43
+https://cdn.sofifa.com/teams/1/light_60.png       43
+https://cdn.sofifa.com/teams/110/light_60.png     43
+https://cdn.sofifa.com/teams/11/light_60.png      42
+                                                  ..
+https://cdn.sofifa.com/teams/180/light_60.png      1
+https://cdn.sofifa.com/teams/1745/light_60.png     1
+https://cdn.sofifa.com/teams/1362/light_60.png     1
+https://cdn.sofifa.com/teams/1812/light_60.png     1
+https://cdn.sofifa.com/teams/1041/light_60.png     1
+Name: club_logo, Length: 899, dtype: int64
+
+
+Flag photo
+https://cdn.sofifa.com/flags/gb-eng.png    1660
+https://cdn.sofifa.com/flags/de.png        1129
+https://cdn.sofifa.com/flags/es.png        1098
+https://cdn.sofifa.com/flags/fr.png         963
+https://cdn.sofifa.com/flags/br.png         819
+                                           ... 
+https://cdn.sofifa.com/flags/gu.png           1
+https://cdn.sofifa.com/flags/er.png           1
+https://cdn.sofifa.com/flags/mw.png           1
+https://cdn.sofifa.com/flags/tz.png           1
+https://cdn.sofifa.com/flags/bb.png           1
+Name: flag_photo, Length: 166, dtype: int64
+
+
+Player potential - player predicted or peak overall rating
+72    1259
+73    1241
+75    1132
+70    1126
+74    1122
+71    1118
+69     929
+76     832
+68     810
+77     749
+67     748
+78     688
+66     611
+65     571
+79     548
+64     485
+80     476
+81     353
+82     281
+63     251
+83     246
+62     178
+84     158
+85     129
+61     117
+86      90
+60      72
+87      65
+88      49
+59      44
+58      36
+89      27
+57      18
+56      16
+90      14
+91      10
+55       9
+93       7
+52       5
+92       5
+48       3
+54       3
+50       3
+95       1
+53       1
+49       1
+47       1
+Name: pot, dtype: int64
+
+
+Team and contract type of player
+India Free                               28
+Bulgaria Free                            27
+Uruguay Free                             22
+Ecuador Free                             21
+Egypt Free                               19
+                                         ..
+Chelsea 2013 ~ 2024                       1
+Arsenal 2012 ~ 2022                       1
+Colchester United 2012 ~ 2021             1
+Portland Timbers Dec 31, 2020 On Loan     1
+Burnley 2020 ~ 2021                       1
+Name: team_and_contract, Length: 9471, dtype: int64
+
+
+Player height
+6'0"     2507
+5'10"    2350
+5'9"     1978
+5'11"    1886
+6'2"     1808
+6'1"     1752
+5'8"      935
+6'3"      925
+5'7"      875
+6'4"      700
+5'6"      301
+6'5"      248
+5'5"      180
+6'6"      108
+6'7"       27
+5'4"       27
+5'3"       12
+6'8"       10
+5'2"        5
+6'9"        2
+5'1"        2
+Name: height, dtype: int64
+
+
+Player weight
+154lbs    1327
+165lbs    1264
+176lbs    1002
+159lbs     900
+172lbs     868
+161lbs     835
+163lbs     821
+168lbs     799
+170lbs     740
+150lbs     673
+174lbs     590
+157lbs     587
+181lbs     542
+152lbs     491
+143lbs     469
+179lbs     450
+148lbs     442
+183lbs     434
+185lbs     390
+187lbs     367
+146lbs     358
+141lbs     292
+190lbs     262
+194lbs     239
+139lbs     199
+192lbs     182
+198lbs     157
+137lbs     151
+132lbs     145
+196lbs     115
+134lbs     106
+201lbs      74
+203lbs      70
+205lbs      43
+128lbs      39
+209lbs      37
+207lbs      34
+130lbs      31
+212lbs      16
+121lbs      14
+126lbs      13
+214lbs      12
+123lbs      12
+216lbs      11
+220lbs       9
+119lbs       4
+227lbs       4
+225lbs       4
+223lbs       3
+218lbs       3
+229lbs       2
+117lbs       2
+110lbs       1
+236lbs       1
+243lbs       1
+115lbs       1
+Name: weight, dtype: int64
+
+
+Player preferred foot
+Right    12522
+Left      4116
+Name: foot, dtype: int64
+
+
+Player growth - player probability to maximize his potential
+0     5353
+1      998
+3      967
+5      868
+7      821
+9      775
+6      764
+8      721
+10     619
+11     593
+4      582
+2      550
+14     494
+12     480
+13     435
+15     409
+16     297
+17     277
+18     189
+20     185
+19     125
+21      45
+22      40
+23      27
+24      13
+25       8
+26       3
+Name: growth, dtype: int64
+
+
+Date in which player joined his actual club
+Jul 1, 2019     1166
+Jul 1, 2018      878
+Jul 1, 2017      556
+Jan 1, 2019      390
+Jul 1, 2020      329
+                ... 
+May 13, 2013       1
+Aug 22, 2015       1
+Oct 3, 2019        1
+Jun 11, 2017       1
+Sep 8, 2019        1
+Name: joined, Length: 1906, dtype: int64
+
+
+Player value in euro
+€1.1M     489
+€1M       342
+€0        332
+€450K     332
+€325K     332
+         ... 
+€80M        1
+€38.5M      1
+€46M        1
+€58M        1
+€5K         1
+Name: value, Length: 216, dtype: int64
+
+
+Player monthly wage
+€2K      2399
+€500     1737
+€3K      1671
+€1K      1279
+€4K      1053
+         ... 
+€200K       2
+€370K       1
+€560K       1
+€290K       1
+€250        1
+Name: wage, Length: 142, dtype: int64
+
+
+Player release clause in euro
+€0        1527
+€1.1M      521
+€1.2M      435
+€1.3M      416
+€1.4M      387
+          ... 
+€601K        1
+€46M         1
+€59.7M       1
+€12K         1
+€367K        1
+Name: release_clause, Length: 1193, dtype: int64
+
+
+Date (and some more) range of player contract
+2019 ~ 2021                  1335
+2019 ~ 2022                  1064
+2018 ~ 2021                  1063
+2020 ~ 2022                  1015
+2019 ~ 2023                   910
+                             ... 
+Shenzhen FC 2019 ~ 2022         1
+Racing Club 2020 ~ 2022         1
+Club Libertad 2019 ~ 2021       1
+Monterrey 2016 ~ 2018           1
+May 31, 2022 On Loan            1
+Name: contract, Length: 380, dtype: int64
+
+
+Player attacking statistics
+266    143
+274    138
+281    136
+256    134
+279    134
+      ... 
+153      1
+134      1
+126      1
+426      1
+417      1
+Name: attacking, Length: 363, dtype: int64
+
+
+Player crossing statistics
+65    525
+59    500
+60    480
+58    479
+64    476
+     ... 
+6       3
+92      1
+94      1
+91      1
+93      1
+Name: crossing, Length: 89, dtype: int64
+
+
+Player finishing statistics
+58    462
+64    449
+62    445
+60    436
+65    421
+     ... 
+92      2
+90      2
+95      2
+93      1
+89      1
+Name: finishing, Length: 93, dtype: int64
+
+
+Player heading_accuracy 
+58    605
+60    549
+55    513
+59    489
+65    487
+     ... 
+88      3
+89      2
+93      2
+5       2
+6       1
+Name: heading_accuracy, Length: 89, dtype: int64
+
+
+Player short_passing statistics
+65    759
+66    758
+64    754
+62    744
+68    741
+     ... 
+92      2
+93      2
+8       2
+7       1
+94      1
+Name: short_passing, Length: 86, dtype: int64
+
+
+Player volleys statistics
+55.0    380
+49.0    378
+59.0    367
+48.0    361
+53.0    358
+       ... 
+86.0      6
+88.0      5
+90.0      3
+87.0      3
+89.0      2
+Name: volleys, Length: 87, dtype: int64
+
+
+Player Skill statistics
+285    128
+289    124
+301    124
+296    123
+280    123
+      ... 
+439      1
+423      1
+422      1
+424      1
+48       1
+Name: skill, Length: 390, dtype: int64
+
+
+Player dribbling statistics
+64    719
+65    682
+68    622
+63    618
+62    613
+     ... 
+92      6
+91      3
+93      2
+95      1
+96      1
+Name: dribbling, Length: 91, dtype: int64
+
+
+Player Curve statistics
+55.0    387
+58.0    370
+60.0    366
+48.0    364
+64.0    363
+       ... 
+93.0      1
+94.0      1
+91.0      1
+5.0       1
+4.0       1
+Name: curve, Length: 91, dtype: int64
+
+
+Player free kick accuracy 
+39    442
+42    433
+32    428
+35    421
+40    415
+     ... 
+93      2
+6       2
+94      1
+92      1
+5       1
+Name: fk_accuracy, Length: 90, dtype: int64
+
+
+Player long passing statistics
+65    593
+62    562
+58    555
+64    532
+60    529
+     ... 
+91      3
+90      3
+88      2
+93      2
+10      1
+Name: long_passing, Length: 84, dtype: int64
+
+
+Player ball control statistics
+65    786
+64    737
+62    715
+68    705
+70    704
+     ... 
+96      1
+95      1
+94      1
+5       1
+7       1
+Name: ball_control, Length: 91, dtype: int64
+
+
+Player movement statistics
+340    180
+326    164
+359    160
+354    157
+339    155
+      ... 
+440      1
+446      1
+445      1
+447      1
+140      1
+Name: movement, Length: 326, dtype: int64
+
+
+Player acceleration statistics
+68    693
+69    646
+67    599
+74    595
+72    564
+     ... 
+16      8
+96      6
+12      1
+13      1
+97      1
+Name: acceleration, Length: 85, dtype: int64
+
+
+Player sprint_speed statistics
+69    742
+68    700
+67    628
+74    595
+66    579
+     ... 
+16     11
+95      7
+96      4
+13      1
+14      1
+Name: sprint_speed, Length: 84, dtype: int64
+
+
+Player agility statistics
+68.0    565
+72.0    560
+70.0    554
+67.0    547
+69.0    542
+       ... 
+19.0      2
+15.0      2
+20.0      2
+14.0      1
+96.0      1
+Name: agility, Length: 81, dtype: int64
+
+
+Player reactions statistics
+60    790
+65    771
+64    741
+58    735
+68    729
+     ... 
+24      2
+94      2
+95      1
+29      1
+28      1
+Name: reactions, Length: 69, dtype: int64
+
+
+Player balance statistics
+68.0    584
+69.0    554
+75.0    550
+65.0    545
+71.0    542
+       ... 
+20.0      5
+19.0      2
+17.0      1
+96.0      1
+97.0      1
+Name: balance, Length: 80, dtype: int64
+
+
+Player power statistics
+326    164
+325    155
+322    154
+330    147
+335    147
+      ... 
+444      1
+420      1
+429      1
+423      1
+140      1
+Name: power, Length: 287, dtype: int64
+
+
+Player shot_power statistics
+65    576
+68    552
+70    541
+64    502
+66    494
+     ... 
+94      2
+14      1
+16      1
+93      1
+19      1
+Name: shot_power, Length: 81, dtype: int64
+
+
+Player jumping statistics
+70.0    738
+71.0    645
+72.0    603
+65.0    597
+62.0    563
+       ... 
+27.0      2
+95.0      1
+24.0      1
+26.0      1
+25.0      1
+Name: jumping, Length: 73, dtype: int64
+
+
+Player stamina statistics
+68    695
+69    592
+70    559
+67    555
+66    550
+     ... 
+97      1
+96      1
+14      1
+13      1
+12      1
+Name: stamina, Length: 87, dtype: int64
+
+
+Player strength statistics
+70    621
+68    619
+67    546
+72    543
+66    542
+     ... 
+24      2
+23      1
+16      1
+97      1
+22      1
+Name: strength, Length: 78, dtype: int64
+
+
+Player long_shots statistics
+62    458
+59    446
+60    439
+65    432
+58    431
+     ... 
+94      1
+93      1
+91      1
+92      1
+90      1
+Name: long_shots, Length: 91, dtype: int64
+
+
+Player mentality statistics
+265    153
+279    151
+277    147
+263    147
+258    144
+      ... 
+397      1
+400      1
+421      1
+161      1
+177      1
+Name: mentality, Length: 351, dtype: int64
+
+
+Player aggression statistics
+68    459
+70    458
+58    429
+62    426
+72    422
+     ... 
+95      2
+94      2
+10      2
+96      1
+9       1
+Name: aggression, Length: 88, dtype: int64
+
+
+Player interceptions statistics
+62.0    444
+65.0    421
+66.0    406
+63.0    404
+58.0    401
+       ... 
+5.0       3
+4.0       3
+91.0      2
+89.0      2
+93.0      1
+Name: interceptions, Length: 89, dtype: int64
+
+
+Player positioning statistics
+58.0    526
+64.0    523
+65.0    512
+62.0    508
+60.0    493
+       ... 
+91.0      4
+94.0      4
+90.0      3
+89.0      2
+95.0      1
+Name: positioning, Length: 94, dtype: int64
+
+
+Player vision statistics
+59.0    576
+58.0    563
+62.0    538
+65.0    517
+60.0    511
+       ... 
+89.0      2
+10.0      2
+94.0      2
+93.0      1
+95.0      1
+Name: vision, Length: 85, dtype: int64
+
+
+Player penalties statistics
+55    499
+60    466
+58    450
+49    446
+59    439
+     ... 
+9       5
+91      5
+7       4
+89      3
+94      1
+Name: penalties, Length: 87, dtype: int64
+
+
+Player composure statistics
+65.0    658
+58.0    625
+60.0    619
+62.0    616
+64.0    599
+       ... 
+94.0      2
+17.0      1
+16.0      1
+95.0      1
+96.0      1
+Name: composure, Length: 85, dtype: int64
+
+
+Player defending statistics
+194    193
+184    166
+190    161
+193    161
+188    160
+      ... 
+263      1
+266      1
+255      1
+21       1
+20       1
+Name: defending, Length: 248, dtype: int64
+
+
+Player marking statistics
+65    451
+62    447
+60    441
+58    412
+68    402
+     ... 
+94      2
+3       1
+93      1
+91      1
+92      1
+Name: marking, Length: 92, dtype: int64
+
+
+Player standing_tackle statistics
+64    530
+65    515
+66    464
+68    453
+63    449
+     ... 
+89      4
+90      3
+5       1
+93      1
+6       1
+Name: standing_tackle, Length: 87, dtype: int64
+
+
+Player sliding_tackle statistics
+62.0    529
+65.0    481
+64.0    480
+63.0    443
+60.0    406
+       ... 
+6.0       4
+90.0      3
+88.0      2
+95.0      1
+7.0       1
+Name: sliding_tackle, Length: 85, dtype: int64
+
+
+Player goalkeeping statistics
+52     853
+51     844
+50     826
+53     806
+54     801
+      ... 
+383      1
+419      1
+79       1
+18       1
+246      1
+Name: goalkeeping, Length: 265, dtype: int64
+
+
+Player goalkeeping diving statistics
+8     1515
+7     1490
+12    1489
+10    1476
+11    1465
+      ... 
+44       1
+22       1
+39       1
+32       1
+46       1
+Name: gk_diving, Length: 71, dtype: int64
+
+
+Player goalkeeping handling statistics
+12    1539
+10    1531
+7     1495
+14    1476
+9     1471
+      ... 
+84       1
+41       1
+43       1
+89       1
+25       1
+Name: gk_handling, Length: 69, dtype: int64
+
+
+Player goalkeeping kicking statistics
+9     1537
+7     1517
+13    1514
+12    1486
+8     1471
+      ... 
+38       1
+40       1
+19       1
+36       1
+31       1
+Name: gk_kicking, Length: 78, dtype: int64
+
+
+Player goalkeeping positioning statistics
+10    1545
+7     1508
+8     1499
+14    1486
+9     1475
+      ... 
+85       1
+1        1
+32       1
+24       1
+33       1
+Name: gk_positioning, Length: 77, dtype: int64
+
+
+Player goalkeeping reflexes statistics
+9     1548
+11    1523
+8     1505
+7     1498
+10    1487
+      ... 
+1        1
+21       1
+32       1
+23       1
+49       1
+Name: gk_reflexes, Length: 72, dtype: int64
+
+
+Player sum of total stats
+1693    42
+1588    40
+1666    39
+1607    39
+1771    39
+        ..
+2157     1
+2269     1
+2100     1
+2303     1
+995      1
+Name: total_stats, Length: 1395, dtype: int64
+
+
+Player base statistics sum
+365    177
+358    171
+375    168
+361    164
+372    162
+      ... 
+482      1
+481      1
+484      1
+485      1
+243      1
+Name: base_stats, Length: 248, dtype: int64
+
+
+Player week foot stats (up to 5)
+3 ★    10265
+2 ★     3307
+4 ★     2684
+5 ★      287
+1 ★       95
+Name: w/f, dtype: int64
+
+
+Player skill moves stats (up to 5)
+2★    7339
+3★    6478
+1★    1509
+4★    1248
+5★      64
+Name: sm, dtype: int64
+
+
+Away wins
+Medium    10777
+High       5057
+Low         804
+Name: a/w, dtype: int64
+
+
+draft (home?) wins
+Medium    11973
+High       2931
+Low        1734
+Name: d/w, dtype: int64
+
+
+Unknown
+1 ★    14879
+2 ★     1294
+3 ★      402
+4 ★       57
+5 ★        6
+Name: ir, dtype: int64
+
+
+Player pace statistics
+66    706
+68    689
+71    682
+67    681
+69    678
+     ... 
+95      3
+27      1
+26      1
+28      1
+25      1
+Name: pac, Length: 72, dtype: int64
+
+
+Player shootingg statistics
+60    580
+62    560
+63    543
+61    539
+64    529
+     ... 
+91      2
+17      2
+89      1
+16      1
+93      1
+Name: sho, Length: 77, dtype: int64
+
+
+Player passing statistics
+60    699
+62    692
+61    676
+59    669
+58    663
+     ... 
+91      3
+93      2
+25      2
+27      2
+89      1
+Name: pas, Length: 68, dtype: int64
+
+
+Player dribbling statistics
+65    787
+68    786
+63    775
+64    768
+66    755
+     ... 
+91      4
+92      3
+94      1
+95      1
+28      1
+Name: dri, Length: 67, dtype: int64
+
+
+Player defending statistics
+63    521
+61    474
+65    456
+62    444
+60    442
+     ... 
+88      3
+89      2
+13      1
+91      1
+90      1
+Name: def, Length: 78, dtype: int64
+
+
+Player physical stat
+67    725
+69    709
+66    704
+70    693
+65    678
+     ... 
+32      2
+30      1
+27      1
+29      1
+28      1
+Name: phy, Length: 65, dtype: int64
+
+
+Unknown
+3      3010
+4      2197
+5      1478
+6      1128
+7       821
+       ... 
+305       1
+457       1
+252       1
+354       1
+720       1
+Name: hits, Length: 529, dtype: int64
+
+
+Player left striker stat
+61+2     644
+58+2     590
+60+2     589
+63+2     582
+62+2     580
+        ... 
+26+3       1
+68+-2      1
+69+-2      1
+83+1       1
+68+-5      1
+Name: ls, Length: 268, dtype: int64
+
+
+Player striker stat
+61+2     644
+58+2     590
+60+2     589
+63+2     582
+62+2     580
+        ... 
+26+3       1
+68+-2      1
+69+-2      1
+83+1       1
+68+-5      1
+Name: st, Length: 268, dtype: int64
+
+
+Player right striker
+61+2     644
+58+2     590
+60+2     589
+63+2     582
+62+2     580
+        ... 
+26+3       1
+68+-2      1
+69+-2      1
+83+1       1
+68+-5      1
+Name: rs, Length: 268, dtype: int64
+
+
+Player lef wingback stat
+64+0     710
+65+0     694
+61+0     686
+63+0     684
+62+0     639
+        ... 
+76+-6      1
+66+-3      1
+75+-4      1
+67+1       1
+68+-5      1
+Name: lw, Length: 173, dtype: int64
+
+
+Unknown
+61+0     695
+62+0     694
+63+0     684
+60+0     643
+65+0     641
+        ... 
+63+1       1
+77+-2      1
+93+0       1
+32+1       1
+68+-5      1
+Name: lf, Length: 161, dtype: int64
+
+
+Player central forward stat
+61+0     695
+62+0     694
+63+0     684
+60+0     643
+65+0     641
+        ... 
+63+1       1
+77+-2      1
+93+0       1
+32+1       1
+68+-5      1
+Name: cf, Length: 161, dtype: int64
+
+
+Player right forward stat
+61+0     695
+62+0     694
+63+0     684
+60+0     643
+65+0     641
+        ... 
+63+1       1
+77+-2      1
+93+0       1
+32+1       1
+68+-5      1
+Name: rf, Length: 161, dtype: int64
+
+
+Player right wing stat
+64+0     710
+65+0     694
+61+0     686
+63+0     684
+62+0     639
+        ... 
+76+-6      1
+66+-3      1
+75+-4      1
+67+1       1
+68+-5      1
+Name: rw, Length: 173, dtype: int64
+
+
+Player Left (off-centre) Attacking Midfielder
+62+2     660
+63+2     614
+61+2     597
+59+2     595
+64+2     581
+        ... 
+59+3       1
+75+-5      1
+85+3       1
+27+0       1
+15+2       1
+Name: lam, Length: 314, dtype: int64
+
+
+Player Central (off-centre) Attacking 
+62+2     660
+63+2     614
+61+2     597
+59+2     595
+64+2     581
+        ... 
+59+3       1
+75+-5      1
+85+3       1
+27+0       1
+15+2       1
+Name: cam, Length: 314, dtype: int64
+
+
+Player Right (off-centre) Attacking Midfielder
+62+2     660
+63+2     614
+61+2     597
+59+2     595
+64+2     581
+        ... 
+59+3       1
+75+-5      1
+85+3       1
+27+0       1
+15+2       1
+Name: ram, Length: 314, dtype: int64
+
+
+Player left Midfielder stat
+61+2     656
+62+2     643
+63+2     626
+64+2     616
+59+2     566
+        ... 
+79+-1      1
+71+-3      1
+77+-1      1
+83+0       1
+49+-2      1
+Name: lm, Length: 298, dtype: int64
+
+
+Player left central Midfielder stat
+61+2     654
+59+2     652
+62+2     636
+60+2     623
+57+2     609
+        ... 
+48+3       1
+74+-1      1
+71+-2      1
+72+-2      1
+15+2       1
+Name: lcm, Length: 260, dtype: int64
+
+
+Player central Midfielder
+61+2     654
+59+2     652
+62+2     636
+60+2     623
+57+2     609
+        ... 
+48+3       1
+74+-1      1
+71+-2      1
+72+-2      1
+15+2       1
+Name: cm, Length: 260, dtype: int64
+
+
+Player Right central Midfielder stat
+61+2     654
+59+2     652
+62+2     636
+60+2     623
+57+2     609
+        ... 
+48+3       1
+74+-1      1
+71+-2      1
+72+-2      1
+15+2       1
+Name: rcm, Length: 260, dtype: int64
+
+
+Player right Midfielder stat
+61+2     656
+62+2     643
+63+2     626
+64+2     616
+59+2     566
+        ... 
+79+-1      1
+71+-3      1
+77+-1      1
+83+0       1
+49+-2      1
+Name: rm, Length: 298, dtype: int64
+
+
+Player Left Wing Back stat
+59+2     609
+60+2     568
+61+2     568
+57+2     563
+62+2     544
+        ... 
+35+1       1
+34+3       1
+36+0       1
+35+3       1
+51+-1      1
+Name: lwb, Length: 269, dtype: int64
+
+
+Player defensive Midfielder
+61+2     506
+56+2     490
+63+2     485
+62+2     482
+59+2     481
+        ... 
+40+3       1
+80+0       1
+27+0       1
+86+3       1
+52+-2      1
+Name: ldm, Length: 301, dtype: int64
+
+
+Player central defensive Midfielder
+61+2     506
+56+2     490
+63+2     485
+62+2     482
+59+2     481
+        ... 
+40+3       1
+80+0       1
+27+0       1
+86+3       1
+52+-2      1
+Name: cdm, Length: 301, dtype: int64
+
+
+Player right defensive Midfielder
+61+2     506
+56+2     490
+63+2     485
+62+2     482
+59+2     481
+        ... 
+40+3       1
+80+0       1
+27+0       1
+86+3       1
+52+-2      1
+Name: rdm, Length: 301, dtype: int64
+
+
+Player right wing back
+59+2     609
+60+2     568
+61+2     568
+57+2     563
+62+2     544
+        ... 
+35+1       1
+34+3       1
+36+0       1
+35+3       1
+51+-1      1
+Name: rwb, Length: 269, dtype: int64
+
+
+Player left back
+63+2     561
+62+2     558
+61+2     546
+60+2     524
+59+2     510
+        ... 
+23+0       1
+83+0       1
+48+3       1
+76+-1      1
+51+-1      1
+Name: lb, Length: 261, dtype: int64
+
+
+Player left central back
+63+2     449
+61+2     444
+62+2     426
+64+2     405
+65+2     404
+        ... 
+24+0       1
+86+3       1
+87+1       1
+81+-1      1
+51+-1      1
+Name: lcb, Length: 316, dtype: int64
+
+
+Player central back
+63+2     449
+61+2     444
+62+2     426
+64+2     405
+65+2     404
+        ... 
+24+0       1
+86+3       1
+87+1       1
+81+-1      1
+51+-1      1
+Name: cb, Length: 316, dtype: int64
+
+
+Player right central back
+63+2     449
+61+2     444
+62+2     426
+64+2     405
+65+2     404
+        ... 
+24+0       1
+86+3       1
+87+1       1
+81+-1      1
+51+-1      1
+Name: rcb, Length: 316, dtype: int64
+
+
+Player right back
+63+2     561
+62+2     558
+61+2     546
+60+2     524
+59+2     510
+        ... 
+23+0       1
+83+0       1
+48+3       1
+76+-1      1
+51+-1      1
+Name: rb, Length: 261, dtype: int64
+
+
+Player goalkeeping stats
+16+2    3097
+17+2    2782
+15+2    2542
+18+2    1923
+14+2    1503
+        ... 
+83+2       1
+22+0       1
+86+3       1
+37+2       1
+70+0       1
+Name: gk, Length: 151, dtype: int64
+
+
+Player Gender
+Male    16638
+Name: gender, dtype: int64
+
+
